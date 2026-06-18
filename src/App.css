@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Inter,sans-serif;
+}
+
+body{
+  background:#eef4ff;
+}
+
+/* PHONE FRAME */
+.container{
+  max-width:430px;
+  margin:auto;
+  min-height:100vh;
+  background:white;
+  padding:20px;
+  padding-bottom:80px;
+}
+
+/* DARK MODE */
+.container.dark{
+  background:#0f172a;
+  color:white;
+}
+
+h1{
+  font-size:1.8rem;
+}
+
+.subtitle{
+  color:#64748b;
+  margin:10px 0 20px;
+}
+
+/* CARDS */
+.card{
+  background:white;
+  padding:18px;
+  border-radius:18px;
+  margin-bottom:15px;
+  box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.container.dark .card{
+  background:#1e293b;
+}
+
+/* INPUTS */
+input, textarea{
+  width:100%;
+  margin-top:10px;
+  padding:10px;
+  border-radius:10px;
+  border:1px solid #ddd;
+}
+
+button{
+  width:100%;
+  margin-top:10px;
+  padding:12px;
+  border:none;
+  border-radius:12px;
+  background:#2563eb;
+  color:white;
+  font-weight:600;
+}
+
+/* NAV */
+.nav{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  display:flex;
+  justify-content:space-around;
+  background:white;
+  padding:10px;
+  border-top:1px solid #ddd;
+}
+
+.container.dark .nav{
+  background:#1e293b;
+}
+
+/* ANALYSIS BAR */
+.bar{
+  height:10px;
+  background:#eee;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.fill{
+  height:100%;
+  background:#2563eb;
+}
+
+/* CIRCLE */
+.center{
+  display:flex;
+  justify-content:center;
+}
+
+.circle{
+  position:relative;
+}
+
+.circleText{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+
+/* FINAL */
+.final{
+  margin-top:20px;
+  text-align:center;
+  padding:20px;
+  background:linear-gradient(135deg,#2563eb,#60a5fa);
+  color:white;
+  border-radius:15px;
+}
